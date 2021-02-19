@@ -22,7 +22,7 @@
 
         <activity android:name=".loading.LoadingTestActivity" />
 
-        <activity android:name=".grading.GradingActivity" />
+        <activity android:name=".modeling.GradingActivity" />
     </application>
 
 </manifest>

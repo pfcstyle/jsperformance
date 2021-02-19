@@ -15,5 +15,5 @@
     <string name="test_initialization">Initializing</string>
     <string name="test_execution_load">Loading</string>
     <string name="test_execution_loop">Looping</string>
-    <string name="test_grader">Grading</string>
+    <string name="test_grader">Modeling</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.pfcstyle.js.performance.grading;
+package com.pfcstyle.js.performance.modeling;
 
 import android.content.Context;
 

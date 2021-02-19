@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.pfcstyle.js.performance.grading.GradingActivity;
+import com.pfcstyle.js.performance.modeling.GradingActivity;
 import com.pfcstyle.js.performance.initialization.InitializationTestActivity;
 import com.pfcstyle.js.performance.loading.LoadingTestActivity;
 import com.pfcstyle.js.performance.looping.LoopingTestActivity;

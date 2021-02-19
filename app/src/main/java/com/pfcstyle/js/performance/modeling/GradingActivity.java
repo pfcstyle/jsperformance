@@ -1,4 +1,4 @@
-package com.pfcstyle.js.performance.grading;
+package com.pfcstyle.js.performance.modeling;
 
 import android.os.Bundle;
 
@@ -11,7 +11,7 @@ public class GradingActivity extends BaseTestActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Grading");
+        setTitle("Modeling");
     }
 
     @Override
