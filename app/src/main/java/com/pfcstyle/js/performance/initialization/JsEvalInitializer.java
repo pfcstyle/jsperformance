@@ -21,8 +21,14 @@ class JsEvalInitializer implements Executor {
     public void execute(final @Nullable Action1<Long> listener) {
         final long startTime = System.nanoTime();
         JsEvaluator evaluator = new JsEvaluator(mContext);
+        evaluator.getWebViewWrapper();
         final long endTime = System.nanoTime();
-//        evaluator.destroy();
+        try {
+            evaluator.destroy();
+        }catch (Exception e){
+
+        }
+
 
         if (listener != null) {
             listener.call(endTime - startTime);

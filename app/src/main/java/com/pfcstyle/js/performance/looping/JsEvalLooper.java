@@ -16,6 +16,7 @@ class JsEvalLooper extends BaseLooper {
 
     JsEvalLooper(Context context) {
         mJsEvaluator = new JsEvaluator(context);
+        mJsEvaluator.getWebViewWrapper();
         mJs = getLoopJs(context);
     }
 

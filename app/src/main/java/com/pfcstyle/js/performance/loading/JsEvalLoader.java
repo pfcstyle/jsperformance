@@ -16,6 +16,7 @@ class JsEvalLoader extends BaseLoader {
     JsEvalLoader(Context context) {
         super(context);
         mJsEvaluator = new JsEvaluator(context);
+        mJsEvaluator.getWebViewWrapper();
     }
 
     @Override

@@ -16,6 +16,7 @@ class JsEvalGrader extends BaseGrader {
     JsEvalGrader(Context context) {
         super(context);
         mJsEvaluator = new JsEvaluator(context);
+        mJsEvaluator.getWebViewWrapper();
     }
 
     @Override
